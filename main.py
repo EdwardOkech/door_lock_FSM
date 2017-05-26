@@ -13,3 +13,11 @@ import sys
 reload(sys)   # to re-enable sys.setdefaultencoding()
 sys.setdefaultencoding('utf-8')
 
+from fysom import Fysom 
+from datetime
+from .utils import classonlymethod
+
+
+class User:
+	def __init__(self, end_of_contract, is_staff=False):
+		self.end_of_contract = 
